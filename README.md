@@ -1,11 +1,6 @@
-Столкнулся с проблемой при генерации client на swagger-codegen из автосгенерированной документации вьюхой drf_spectacular на Django приложение.
-
-Проблемы в типе передаваемых данных ( | ) и в их названиях.
-
-Удалось решить только с помощью этого скрипта. 
-
-За потерю данных не отвечаю, надо тестить(для моей спеки из 56 тыс.строк это было накладно).
-
-
+I encountered an issue when generating a client using swagger-codegen from auto-generated documentation by drf_spectacular view for a Django application.
+The problems were in the type of data being passed ( | ) and in their names.
+I was only able to solve it using this script.
+I'm not responsible for data loss; testing is necessary (for my spec of 56,000 lines, this was impractical).
 #USAGE
-В config замените на ваши названия файлов.
+In the config, replace with your file names.
